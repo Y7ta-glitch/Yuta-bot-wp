@@ -1,0 +1,22 @@
+{
+  "name": "yutav8-whatsapp-bot",
+  "version": "8.0.0",
+  "description": "Yuta V8 WhatsApp Bot",
+  "type": "module",
+  "main": "yutav8.mjs",
+  "scripts": {
+    "start": "node yutav8.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@andresaya/edge-tts": "latest",
+    "@hapi/boom": "latest",
+    "@whiskeysockets/baileys": "latest",
+    "canvas": "latest",
+    "ffmpeg-static": "latest",
+    "pino": "latest",
+    "twemoji-parser": "latest"
+  }
+}
